@@ -34,7 +34,7 @@ const HeroSection = () => {
       </div>
 
       <div
-        className="w-full h-48 sm:h-dvh sm:w-5/12 bg-cover bg-center"
+        className="w-full h-96 sm:h-dvh sm:w-5/12 bg-cover bg-center"
         style={{ backgroundImage: "url('/img/image64.png')" }}
       >
         <div className="flex flex-col justify-end items-start h-full p-4 sm:p-8 max-w-xs sm:max-w-full">
