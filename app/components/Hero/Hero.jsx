@@ -44,7 +44,7 @@ const HeroSection = () => {
           <h2 className="text-white text-3xl sm:text-6xl font-normal leading-tight">
             Pösht Sofa
           </h2>
-          <button className="flex items-center gap-2 text-white bg-[#2F241F] font-light mt-4 px-6 py-3 rounded-xl shadow text-sm sm:text-base">
+          <button className="flex items-center gap-2 text-white bg-[#2F241F] font-light mt-4 px-6 py-3 rounded-xl shadow text-sm sm:text-base mb-2 sm:mb-20">
             VIEW DETAIL
             <MdOutlineNavigateNext className="text-xl sm:text-2xl" />
           </button>
