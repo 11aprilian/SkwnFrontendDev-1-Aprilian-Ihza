@@ -2,3 +2,5 @@
 
 1. npm install
 2. npm run dev
+
+https://dekoor-furniture.vercel.app/
