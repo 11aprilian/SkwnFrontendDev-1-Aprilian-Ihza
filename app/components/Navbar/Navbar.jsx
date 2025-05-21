@@ -9,43 +9,33 @@ const Navbar = () => {
           <img src="/img/logo/logo.png" alt="" className="w-32" />
         </a>
       </div>
+
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4 font-medium">
-          <li>
-            <a>About Us</a>
-          </li>
+          <li><a>About Us</a></li>
           <li>
             <details>
               <summary>Furniture</summary>
               <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
               </ul>
             </details>
           </li>
-          <li>
-            <a>Partnerships</a>
-          </li>
-          <li>
-            <a>Contact</a>
-          </li>
+          <li><a>Partnerships</a></li>
+          <li><a>Contact</a></li>
         </ul>
       </div>
 
-      <div className="navbar-end">
-        <div className="flex justify-between gap-2">
-          <a className="btn hidden lg:flex bg-[#E5F0B6] text-[#553B33]">
-            Sign Up
-          </a>
-          <a className="btn hidden lg:flex bg-[#553B33] text-[#E5F0B6]">
-            <RiShoppingBagLine />
-          </a>
-        </div>
-        <div className="dropdown lg:hidden">
+      <div className="navbar-end hidden lg:flex gap-2">
+        <a className="btn bg-[#E5F0B6] text-[#553B33]">Sign Up</a>
+        <a className="btn bg-[#553B33] text-[#E5F0B6]">
+          <RiShoppingBagLine />
+        </a>
+      </div>
+
+      <div className="navbar-end lg:hidden">
+        <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,26 +56,18 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow right-0 left-auto max-w-[calc(100vw-1rem)] overflow-x-hidden"
           >
-            <li>
-              <a>About Us</a>
-            </li>
+            <li><a>About Us</a></li>
             <li>
               <a>Furniture</a>
               <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
               </ul>
             </li>
-            <li>
-              <a>Partnerships</a>
-            </li>
-            <li>
-              <a>Contact</a>
-            </li>
+            <li><a>Partnerships</a></li>
+            <li><a>Contact</a></li>
+            <li><a className="btn bg-[#E5F0B6] text-[#553B33] mt-2">Sign Up</a></li>
+            <li><a className="btn bg-[#553B33] text-[#E5F0B6] mt-2"><RiShoppingBagLine /></a></li>
           </ul>
         </div>
       </div>
